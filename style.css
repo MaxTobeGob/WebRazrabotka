@@ -1,0 +1,347 @@
+body{
+    margin: 0;
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 15px;
+    color: rgb(31, 29, 29);
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url("https://adonius.club/uploads/posts/2022-02/1644633547_34-adonius-club-p-masterskaya-fon-42.jpg")
+     center no-repeat ;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.intro_inner{
+    text-align: center;
+}
+
+.intro_slg{
+    font-size: 95px;
+    font-style: italic;
+    font-weight: 700;
+    color: azure;
+
+}
+
+.header{
+    padding-top: 30px;
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(182, 98, 19);
+}
+
+
+
+.nav{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.nav1{
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+.nav1:hover{
+    color: rgb(133, 179, 25);
+
+}
+.btn{
+    font-size: 35px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10 15 px;
+
+    border: 4px solid rgb(0, 25, 168);
+    text-decoration: none;
+    color: azure;
+    transition: 0.2s;
+}
+.btn:hover{
+    background-color:rgb(0, 25, 168) ;
+    color: black;
+}
+
+
+
+.section{
+    padding: 80px 0;
+    background-color: blanchedalmond;
+}
+
+
+.section_header{
+    text-align: center;
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto 40px;
+}
+
+.section_title{
+    font-size: 55px;
+    font-weight: 700;
+    color: rgb(7, 85, 109);
+}
+.section_text{
+    font-size: 20px;
+    
+}
+.ab{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 60px;
+}
+
+.ab_pic{
+    width: 350px;
+    position: relative;
+    background-color: aquamarine;
+}
+.ab_pic:hover .ab_obj {
+    transform: translate3d(-10px, -10px, -10px);
+}
+
+.ab_pic:hover .ab_obj img {
+    opacity: 0.2;
+}
+.ab_pic:hover .ab_text{
+    opacity: 1;
+}
+
+.ab_obj{
+    background: linear-gradient(to bottom, rgb(119, 255, 176), #ffa601);
+    transition: transform 0.2s linear;
+}
+
+.ab_obj img{
+    display: block;
+    transition: opacity 0.1s linear;
+    
+}
+.ab_text{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.2s;
+
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    z-index: 2;
+    transform: translate3d(0,-50%,0);
+}
+
+.uslug{
+    width: 100%;
+    height: 100vh;
+    background: url("https://static.tildacdn.com/tild3335-3030-4666-b634-663432366332/cropped-repairing-br.jpg")
+     center no-repeat ;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-color: blanchedalmond;
+}
+
+.uslug_title{
+
+    font-size: 55px;
+    font-weight: 700;
+    color: rgb(122, 24, 0);
+    text-align: center;
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto 40px;
+}
+
+.uslugi{
+    display: flex;
+    flex-direction: column;
+    margin:    60px 60px;
+    text-align: center;
+    
+}
+.uslugan{
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(201, 46, 46);
+}
+
+.uslugaop{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    
+}
+
+.raspl{
+    display: flex;
+    width: 90%;
+    height: 80vh;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+    justify-content: space-between;
+}
+
+.strj{
+   height: auto;
+   width: 100%;
+}
+.section2{
+    padding: 40px 0;
+    width: 100%;
+    height: 100vh;
+    background: url("https://phonoteka.org/uploads/posts/2021-05/1621913937_25-phonoteka_org-p-zadnii-fon-garazh-25.jpg")
+     center no-repeat ;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.section_titlen{
+    font-size: 55px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.section_text1{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 45px;
+    margin-top: 0px;
+}
+    
+
+
+
+
+.ab1{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 60px;
+}
+
+.ab_pic1{
+    width: 300px;
+    position: relative;
+    background-color: rgb(18, 13, 63);
+}
+.ab_pic1:hover .ab_obj1 {
+    transform: translate3d(-10px, -10px, -10px);
+}
+
+.ab_pic1:hover .ab_obj1 img {
+    opacity: 0.1;
+}
+.ab_pic1:hover .ab_text1{
+    opacity: 1;
+}
+
+.ab_obj1{
+    background: linear-gradient(to bottom, rgb(77, 19, 4), #390763);
+    transition: transform 0.2s linear;
+}
+
+.ab_obj1 img{
+    display: block;
+    transition: opacity 0.1s linear;
+    
+}
+.ab_text1{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.2s;
+
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    z-index: 2;
+    transform: translate3d(0,-50%,0);
+}
+
+
+.footer{
+    padding-top: 40px;
+    background-color: aliceblue;
+}
+
+.footer_logo{
+    margin-bottom: 30px;
+    font-size: 46px;
+    font-weight: 700;
+    color: gray;
+}
+.footer_text{
+    margin-bottom: 30px;
+
+    font-size: 15px;
+    color: black;
+
+    width: 20%;
+}
+
+.subscribe{
+    width: 100%;
+    max-width: 380px;
+    display: flex;
+}
+.subscribe_input{
+    height: 36px;
+    
+    background: #fff;
+    border: 1px solid gray;
+
+
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+}
+.subscribe_input::placeholder{
+    color: darkgray;
+}
+.subscribe_btn{
+    height: 40px;
+    font-family: 'Monsterrat', sans-serif;
+    background-color: #390763;
+    border: 0;
+    cursor: pointer;
+
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-transform: uppercase;
+
+    transition: background .2s linear;
+}
+.subscribe_btn:hover{
+    background-color: #1b0230;
+}
+
